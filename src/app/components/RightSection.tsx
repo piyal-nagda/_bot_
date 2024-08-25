@@ -121,21 +121,9 @@ SetMessage('')
                                 <h1>How can I help you today?</h1>
                             </div>
                             <div className={styles.s2}>
+                               
                                 <div className={styles.suggestioncard}>
-                                    <h2>Recommend activities</h2>
-                                    <p>psychology behind decision-making</p>
-                                </div>
-                                <div className={styles.suggestioncard}>
-                                    <h2>Recommend activities</h2>
-                                    <p>psychology behind decision-making</p>
-                                </div>
-                                <div className={styles.suggestioncard}>
-                                    <h2>Recommend activities</h2>
-                                    <p>psychology behind decision-making</p>
-                                </div>
-                                <div className={styles.suggestioncard}>
-                                    <h2>Recommend activities</h2>
-                                    <p>psychology behind decision-making</p>
+                                   <p></p>
                                 </div>
                             </div>
 
