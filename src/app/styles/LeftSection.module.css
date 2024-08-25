@@ -1,0 +1,99 @@
+.leftSection {
+    background-color: var(--col1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; /* Add some padding for better spacing on smaller screens */
+}
+
+.newChat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 10%;
+}
+
+.text1{
+    color: var(--textcol);
+    font-size: 1.2rem; /* Use rem for font size to adjust based on root font size */
+}
+
+.newChat div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newChat div img{
+    border-radius: 50%;
+    width: 40px; /* Add width and height for better control on responsiveness */
+    height: 40px;
+}
+
+.newChat svg {
+    width: 30px;
+    height: 30px;
+    color: var(--textcol);
+}
+
+.allChats{
+    height: 70%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 5%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .newChat {
+        padding: 0 10px;
+    }
+
+    .text1 {
+        font-size: 1rem;
+    }
+
+    .newChat div img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .newChat svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .allChats {
+        padding: 0 10px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .newChat {
+        padding: 0 5px;
+    }
+
+    .text1 {
+        font-size: 0.9rem;
+    }
+
+    .newChat div img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .newChat svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .allChats {
+        padding: 0 5px;
+        gap: 10px;
+    }
+}
