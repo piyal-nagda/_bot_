@@ -1,8 +1,11 @@
 {
+  "homepage": "https://piyal-nagda.github.io/_bot_",
   "name": "bot_gemini",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
